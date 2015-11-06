@@ -12,6 +12,6 @@ public class B extends A{
     {
         super(x);
         System.out.println("Inside constructor B");
-        System.out.println("BBBB");
+        System.out.println("BBB");
     }
 }
