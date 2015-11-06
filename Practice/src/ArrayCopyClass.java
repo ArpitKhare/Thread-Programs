@@ -14,7 +14,7 @@ public class ArrayCopyClass {
             System.out.println("arr["+i+"]"+"="+j);
 
         }
-        System.arraycopy(arr,1,arrCopy,1,3); // source array, source start position, destination array, destination start position, destination end position
+        System.arraycopy(arr,1,arrCopy,1,3); // source array, source start position, destination array, destination start position, destination end position using array copy
         for(int i =0;i<arrCopy.length;i++){
             System.out.println(arrCopy[i]);
         }
